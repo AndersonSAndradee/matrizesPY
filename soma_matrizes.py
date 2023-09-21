@@ -11,9 +11,9 @@ def soma_matrizes(m1, m2):
                 elemento2 = m2[i][j]
                 
                 soma = elemento1 + elemento2
-                linha_resultado.append(soma)  # Adiciona o resultado à linha da matriz final
+                linha_resultado.append(soma)  # Adiciona o resultado á linha 
                 
-            matriz_final.append(linha_resultado)  # Adiciona a linha à matriz final
+            matriz_final.append(linha_resultado)  # Adiciona a linha á matriz final
 
         return matriz_final
     else:
